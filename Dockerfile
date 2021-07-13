@@ -5,6 +5,8 @@ RUN npm install
 COPY . .
 RUN npm run build
 
+#adding change for git commit 
+
 #container for production
 FROM nginx
 
